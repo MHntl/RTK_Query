@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  position: relative;
+}
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.modalOutline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+.modalInline {
+  background-color: white;
+
+  height: 30vh;
+  width: 30%;
+}
